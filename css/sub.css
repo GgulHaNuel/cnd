@@ -1,0 +1,566 @@
+@charset "UTF-8";
+
+/* SITEMAP */
+.sitemap_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-top: 1px solid #dde1e8;
+    margin-bottom: 30px;
+}
+
+.sitemap_con .sitemap_box {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sitemap_con .sitemap_box > li {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.sitemap_con .sitemap_box > li::before {
+    content: '';
+    width: 4px;
+    height: 7px;
+    background-image: url(../img/sitemap_arrows.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    position: absolute;
+    right: -18px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.sitemap_con .sitemap_box > li:last-of-type::before {
+    content: none;
+}
+
+.sitemap_con .sitemap_box .home {
+    width: 15px;
+    height: 14px;
+    position: relative;
+    background-image: url(../img/sitemap_home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.sitemap_con .sitemap_box .home > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.sitemap_con .sitemap_box .txt {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #2253a2;
+}
+
+@media all and (max-width: 1281px) {
+    .sitemap_con {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media all and (max-width: 885px) {
+    .sitemap_con .sitemap_box {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    .sitemap_con {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sitemap_con .sitemap_box .txt {
+        font-size: 0.8125rem;
+    }
+}
+
+/* SITEMAP END */
+
+/* SUB SETTING */
+#sub_sc {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#sub_sc .sub_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#sub_sc .sub_con {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sub_contents {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@media all and (max-width: 1281px) {
+    #sub_sc {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #sub_sc {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* SUB SETTING END */
+
+/* SUB TITLE */
+.sub_title {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.sub_title > h2 {
+    font-size: 3.125rem;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: -1px;
+    word-break: keep-all;
+}
+
+@media all and (max-width: 1281px) {
+    .sub_title > h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width: 885px) {
+    .sub_title {
+        margin-bottom: 50px;
+    }
+
+    .sub_title > h2 {
+        font-size: 1.875rem;
+    }
+}
+
+@media all and (max-width: 481px) {
+    .sub_title > h2 {
+        font-size: 1.4375rem;
+    }
+}
+
+/* SUB TITLE END */
+
+/* MY PAGE */
+.mypage_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mypage_modify {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+    -webkit-justify-content: right;
+    -moz-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+    margin-bottom: 50px;
+}
+
+.mypage_modify > a {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    color: #2253a2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mypage_modify > a > span {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    background-image: url(../img/setting_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.mypage_modify > a:hover > span {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.mypage_cont {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.mypage_cont:last-of-type {
+    margin-bottom: 0;
+}
+
+.mypage_cont .my_tit {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.mypage_cont .my_tit > h2 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.mypage_cont .my_list {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mypage_cont .my_list .list_item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border: 1px solid #d3d7dd;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+}
+
+.mypage_cont .my_list .list_item .subject_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.mypage_cont .my_list .list_item .subject_box {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mypage_cont .my_list .list_item .subject_box .subject {
+    width: auto;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.mypage_cont .my_list .list_item .subject_box .subject > h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2253a2;
+    letter-spacing: -0.5px;
+}
+
+.mypage_cont .my_list .list_item .subject_box .subject > h2 > sup {
+    font-size: 0.6em;
+}
+
+.mypage_cont .my_list .list_item .subject_box .subject > span {
+    font-size: 1.0625rem;
+    color: #5f5f5f;
+    font-weight: 400;
+}
+
+.mypage_cont .my_list .list_item .subject_box .subject_btn {
+    width: 185px;
+    height: 50px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.mypage_cont .my_list .list_item .subject_box .subject_btn.approval_btn {
+    background-color: #2253a2;
+    border: 1px solid #2253a2;
+}
+
+.mypage_cont .my_list .list_item .subject_box .subject_btn.notapproval_btn {
+    background-color: #666;
+}
+
+.mypage_cont .my_list .list_item .subject_box .subject_btn.inquire_btn {
+    background-color: #fff;
+    border: 1px solid #2253a2;
+}
+
+.mypage_cont .my_list .list_item .subject_box .subject_btn > p {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.mypage_cont .my_list .list_item .subject_box .subject_btn.inquire_btn > p {
+    color: #2253a2;
+}
+
+.mypage_cont .my_list .list_item .data {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.mypage_cont .my_list .list_item .data > p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: -0.5px;
+}
+
+.mypage_cont .my_list .list_item .data > p > span {
+    color: #a9a9a9;
+    font-weight: 300;
+}
+
+.mypage_cont .my_list .list_item .list_txt {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 25px;
+    display: none;
+}
+
+.mypage_cont .my_list .list_item .list_txt > p {
+    font-size: 1rem;
+    color: #5f5f5f;
+    line-height: 30px;
+    word-break: keep-all;
+}
+
+@media all and (max-width: 1281px) {
+    .mypage_cont .my_tit > h2 {
+        font-size: 1.4375rem;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject > h2 {
+        font-size: 1.125rem;
+    }
+
+    .mypage_cont .my_list .list_item .data > p {
+        font-size: 1.125rem;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject > span {
+        font-size: 1rem;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject_btn {
+        height: 45px;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject_btn > p {
+        font-size: 0.9375rem;
+    }
+}
+
+@media all and (max-width: 885px) {
+    .mypage_cont .my_tit > h2 {
+        font-size: 1.25rem;
+    }
+
+    .mypage_cont .my_list .list_item {
+        padding: 20px 30px;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box {
+        width: 100%;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject > h2 {
+        font-size: 1rem;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject > span {
+        font-size: 0.875rem;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject_btn > p {
+        font-size: 0.875rem;
+    }
+
+    .mypage_cont .my_list .list_item .data {
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: right;
+        -webkit-justify-content: right;
+        -moz-box-pack: right;
+        -ms-flex-pack: right;
+        justify-content: right;
+        margin-top: 15px;
+    }
+
+    .mypage_cont .my_list .list_item .data > p {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 481px) {
+    .mypage_cont {
+        margin-bottom: 40px;
+    }
+
+    .mypage_modify > a {
+        font-size: 0.8125rem;
+    }
+
+    .mypage_modify > a > span {
+        width: 18px;
+        height: 18px;
+    }
+
+    .mypage_cont .my_tit > h2 {
+        font-size: 1rem;
+    }
+
+    .mypage_cont .my_list .list_item {
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject {
+        width: 100%;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject > h2 {
+        font-size: 0.9375rem;
+    }
+
+    .mypage_cont .my_list .list_item .data > p {
+        font-size: 0.8125rem;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject_btn {
+        width: 150px;
+        height: 30px;
+        margin-left: auto;
+    }
+
+    .mypage_cont .my_list .list_item .subject_box .subject_btn > p {
+        font-size: 0.8125rem;
+    }
+}
+
+/* MY PAGE END */

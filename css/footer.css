@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+#new_ft {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-top: 1px solid #dde1e8;
+    background-color: #f3f5f8;
+    padding: 35px 0;
+}
+
+#new_ft .ft_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_con {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_txt {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+#new_ft .ft_txt > p {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: #333;
+}
+
+@media all and (max-width: 1281px) {
+    #new_ft {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_ft {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #new_ft .ft_txt > p {
+        font-size: 0.8125rem;
+    }
+}
